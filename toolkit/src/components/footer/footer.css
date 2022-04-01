@@ -1,0 +1,37 @@
+.footer{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(241, 203, 255);
+    margin-bottom: 0px;
+}
+.foot-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.child>ul>li{
+    list-style: none;
+    cursor: pointer;
+}
+.child>ul>li:hover{
+    text-decoration: underline;
+    color: white;
+}
+.child{
+    width: 33%;
+    
+}
+.child>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.navbar{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(241, 203, 255);;
+}
+
+.search{
+    width: 20px;
+    height: 20px;
+
+}
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+   }
+.logo{
+       margin-right: 20px;
+       margin-left: 10px;
+       font-weight: 600;
+       font-size: 24px;
+}
+.add{
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.add:hover{
+    background-color: rgb(44, 22, 44);;
+    /* color: black !important; */
+}
+.home,.quotes,.about,.contact{
+    text-decoration: none;
+    color: black;
+}
+.home:hover{
+    color: white;
+}
+.quotes:hover{
+    color: white;
+}
+.about:hover{
+    color: white;
+}
+.contact:hover{
+    color: white;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-btn{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    background-color: rgb(241, 203, 255);;
+    text-decoration: none;
+    color: black;
+}
+.nav-btn:hover{
+    color: white;
+}
+.log{
+    margin-right: 20px;
+    font-size: 20px;
+}

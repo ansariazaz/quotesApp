@@ -1,0 +1,87 @@
+.signup-cont{
+    max-width: 1600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.left{
+   width: 60%;
+
+}
+
+.right{
+   width: 40%;
+
+}
+.right h1{
+    text-align: center;
+}
+.imgCont{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.formItem{
+    padding: 10px;
+}
+.form-input{
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+.iconCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.sign-icon{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+.btn{
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: rgba(32, 32, 32, 0.795);
+}
+.account{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.link{
+    text-decoration: underline;
+    color: blue;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.loading{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
