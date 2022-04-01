@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const User = require('./server/modals/user')
+const User = require('./modals/user')
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const {JWT_SECRET,MONGOURL} = require('./config/keys');
-const Quotes = require('./server/modals/quotes')
+const Quotes = require('./modals/quotes')
 const PORT = 5000;
 mongoose.connect(MONGOURL, {});
 mongoose.connection.on('connected', () => {
